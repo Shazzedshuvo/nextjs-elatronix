@@ -29,7 +29,7 @@ const Hero1 = () => {
 
             {/* 🎁 Win Big Offer */}
             <Link
-              href="/offers"
+              href="/"
               className="flex items-center gap-3 bg-white/10 text-white p-3 rounded shadow hover:shadow-lg transition-all duration-300 cursor-pointer w-full sm:w-auto"
             >
               <span className="flex items-center justify-center w-10 h-10 rounded-full border-2 border-white bg-white text-[#944CF5] text-2xl hover:bg-[#7B2FF7] hover:text-white transition-all duration-300">
