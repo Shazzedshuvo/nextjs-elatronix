@@ -1,0 +1,302 @@
+ [
+  {
+    "id": 1,
+    "name": "Apple iPhone 14 Pro",
+    "category": "Smartphones",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/image-36.jpg",
+      "https://via.placeholder.com/500x500?text=iPhone+2",
+      "https://via.placeholder.com/500x500?text=iPhone+3",
+      "https://via.placeholder.com/500x500?text=iPhone+4"
+    ],
+    "rating": 4.8,
+    "price": 999,
+    "description": "The latest Apple iPhone 14 Pro with A16 Bionic chip and ProMotion display.",
+    "keyFeatures": ["6.1-inch Super Retina XDR display","A16 Bionic chip","Pro camera system","iOS 17"]
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S23",
+    "category": "Smartphones",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/image-2.png",
+      "https://via.placeholder.com/500x500?text=Samsung+2",
+      "https://via.placeholder.com/500x500?text=Samsung+3",
+      "https://via.placeholder.com/500x500?text=Samsung+4"
+    ],
+    "rating": 4.6,
+    "price": 899,
+    "description": "Samsung Galaxy S23 with dynamic AMOLED 2X and Snapdragon 8 Gen 2 processor.",
+    "keyFeatures": ["6.8-inch AMOLED display","Snapdragon 8 Gen 2","Triple camera system","5000mAh battery"]
+  },
+  {
+    "id": 3,
+    "name": "MacBook Pro 16\"",
+    "category": "Laptops",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-10.png",
+      "https://via.placeholder.com/500x500?text=MacBook+2",
+      "https://via.placeholder.com/500x500?text=MacBook+3",
+      "https://via.placeholder.com/500x500?text=MacBook+4"
+    ],
+    "rating": 4.9,
+    "price": 2399,
+    "description": "Apple MacBook Pro 16-inch with M2 Max chip and Liquid Retina XDR display.",
+    "keyFeatures": ["M2 Max chip","16-inch Liquid Retina XDR display","32GB RAM","1TB SSD"]
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 13",
+    "category": "Laptops",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/image-30.png",
+      "https://via.placeholder.com/500x500?text=Dell+2",
+      "https://via.placeholder.com/500x500?text=Dell+3",
+      "https://via.placeholder.com/500x500?text=Dell+4"
+    ],
+    "rating": 4.7,
+    "price": 1299,
+    "description": "Dell XPS 13 with Intel i7 processor and InfinityEdge display.",
+    "keyFeatures": ["13.4-inch InfinityEdge display","Intel i7 12th Gen","16GB RAM","512GB SSD"]
+  },
+  {
+    "id": 5,
+    "name": "Apple iPad Pro 12.9\"",
+    "category": "Tablets",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-12-300x300.png",
+      "https://via.placeholder.com/500x500?text=iPad+2",
+      "https://via.placeholder.com/500x500?text=iPad+3",
+      "https://via.placeholder.com/500x500?text=iPad+4"
+    ],
+    "rating": 4.8,
+    "price": 1099,
+    "description": "Apple iPad Pro with M2 chip, perfect for creative professionals and students.",
+    "keyFeatures": ["12.9-inch Liquid Retina XDR display","M2 chip","5G connectivity","Apple Pencil support"]
+  },
+  {
+    "id": 6,
+    "name": "Samsung Galaxy Tab S8",
+    "category": "Tablets",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/image-2-300x300.png",
+      "https://via.placeholder.com/500x500?text=Tab+2",
+      "https://via.placeholder.com/500x500?text=Tab+3",
+      "https://via.placeholder.com/500x500?text=Tab+4"
+    ],
+    "rating": 4.6,
+    "price": 699,
+    "description": "Samsung Galaxy Tab S8 with Snapdragon 8 Gen 1 and AMOLED display.",
+    "keyFeatures": ["11-inch AMOLED display","Snapdragon 8 Gen 1","S Pen included","128GB storage"]
+  },
+  {
+    "id": 7,
+    "name": "Sony WH-1000XM5",
+    "category": "Headphones",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-17.png",
+      "https://via.placeholder.com/500x500?text=SonyHeadphones+2",
+      "https://via.placeholder.com/500x500?text=SonyHeadphones+3",
+      "https://via.placeholder.com/500x500?text=SonyHeadphones+4"
+    ],
+    "rating": 4.7,
+    "price": 399,
+    "description": "Sony’s top-rated noise-cancelling wireless headphones with exceptional sound.",
+    "keyFeatures": ["Noise-cancelling","Wireless Bluetooth","30-hour battery life","Touch controls"]
+  },
+  {
+    "id": 8,
+    "name": "Bose QuietComfort 45",
+    "category": "Headphones",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-17-300x300.png",
+      "https://via.placeholder.com/500x500?text=Bose+2",
+      "https://via.placeholder.com/500x500?text=Bose+3",
+      "https://via.placeholder.com/500x500?text=Bose+4"
+    ],
+    "rating": 4.6,
+    "price": 349,
+    "description": "Bose noise-cancelling headphones with superior comfort and sound quality.",
+    "keyFeatures": ["Active Noise Cancelling","Bluetooth connectivity","24-hour battery","Lightweight design"]
+  },
+  {
+    "id": 9,
+    "name": "Apple Watch Series 9",
+    "category": "Smartwatches",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-06.png",
+      "https://via.placeholder.com/500x500?text=AppleWatch+2",
+      "https://via.placeholder.com/500x500?text=AppleWatch+3",
+      "https://via.placeholder.com/500x500?text=AppleWatch+4"
+    ],
+    "rating": 4.7,
+    "price": 399,
+    "description": "Apple Watch Series 9 with advanced health monitoring and fitness tracking.",
+    "keyFeatures": ["Blood Oxygen monitoring","Heart rate tracking","Always-on Retina display","Water resistant"]
+  },
+  {
+    "id": 10,
+    "name": "Samsung Galaxy Watch 6",
+    "category": "Smartwatches",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/image-29.png",
+      "https://via.placeholder.com/500x500?text=GalaxyWatch+2",
+      "https://via.placeholder.com/500x500?text=GalaxyWatch+3",
+      "https://via.placeholder.com/500x500?text=GalaxyWatch+4"
+    ],
+    "rating": 4.6,
+    "price": 349,
+    "description": "Samsung Galaxy Watch 6 with fitness tracking and AMOLED display.",
+    "keyFeatures": ["AMOLED display","Heart rate sensor","GPS tracking","Water resistant"]
+  },
+  {
+    "id": 11,
+    "name": "Canon EOS R6",
+    "category": "Cameras",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-14-300x300.png",
+      "https://via.placeholder.com/500x500?text=Canon+2",
+      "https://via.placeholder.com/500x500?text=Canon+3",
+      "https://via.placeholder.com/500x500?text=Canon+4"
+    ],
+    "rating": 4.8,
+    "price": 2499,
+    "description": "Canon full-frame mirrorless camera for professional photography.",
+    "keyFeatures": ["20MP full-frame sensor","4K video recording","Autofocus system","High-speed continuous shooting"]
+  },
+  {
+    "id": 12,
+    "name": "Nikon Z6 II",
+    "category": "Cameras",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-15-300x300.png",
+      "https://via.placeholder.com/500x500?text=Nikon+2",
+      "https://via.placeholder.com/500x500?text=Nikon+3",
+      "https://via.placeholder.com/500x500?text=Nikon+4"
+    ],
+    "rating": 4.7,
+    "price": 1999,
+    "description": "Nikon Z6 II mirrorless camera with full-frame sensor and fast autofocus.",
+    "keyFeatures": ["24.5MP sensor","4K UHD video","Dual EXPEED processors","5-axis stabilization"]
+  },
+  {
+    "id": 13,
+    "name": "Nintendo Switch OLED",
+    "category": "Gaming Consoles",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/image-6-300x300.png",
+      "https://via.placeholder.com/500x500?text=Switch+2",
+      "https://via.placeholder.com/500x500?text=Switch+3",
+      "https://via.placeholder.com/500x500?text=Switch+4"
+    ],
+    "rating": 4.6,
+    "price": 349,
+    "description": "Nintendo Switch with OLED display for immersive gaming experience.",
+    "keyFeatures": ["OLED display","Docked and handheld mode","Joy-Con controllers","Up to 9 hours battery life"]
+  },
+  {
+    "id": 14,
+    "name": "Sony PlayStation 5",
+    "category": "Gaming Consoles",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-16-300x300.png",
+      "https://via.placeholder.com/500x500?text=PS5+2",
+      "https://via.placeholder.com/500x500?text=PS5+3",
+      "https://via.placeholder.com/500x500?text=PS5+4"
+    ],
+    "rating": 4.9,
+    "price": 499,
+    "description": "Sony PS5 with ultra-high-speed SSD and immersive 3D audio.",
+    "keyFeatures": ["Ultra-fast SSD","4K gaming","DualSense controllers","Backward compatibility"]
+  },
+  {
+    "id": 15,
+    "name": "LG 65\" OLED TV",
+    "category": "TV & Monitors",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OPWCVkYZ8vtDqdccSK2tV2krlOhX4efmGQ&s",
+      "https://via.placeholder.com/500x500?text=LGTV+2",
+      "https://via.placeholder.com/500x500?text=LGTV+3",
+      "https://via.placeholder.com/500x500?text=LGTV+4"
+    ],
+    "rating": 4.8,
+    "price": 1799,
+    "description": "LG 65-inch OLED TV with stunning colors and AI picture enhancement.",
+    "keyFeatures": ["4K OLED display","AI Picture Pro","Dolby Vision & Atmos","Smart TV features"]
+  },
+  {
+    "id": 16,
+    "name": "HP DeskJet 2755 Printer",
+    "category": "Printers",
+    "images": [
+      "https://via.placeholder.com/500x500?text=HP+1",
+      "https://via.placeholder.com/500x500?text=HP+2",
+      "https://via.placeholder.com/500x500?text=HP+3",
+      "https://via.placeholder.com/500x500?text=HP+4"
+    ],
+    "rating": 4.4,
+    "price": 99,
+    "description": "HP all-in-one wireless printer for home and office use.",
+    "keyFeatures": ["Print, Scan, Copy","Wireless printing","Compact design","Up to 7.5 ppm printing speed"]
+  },
+  {
+    "id": 17,
+    "name": "JBL Flip 6",
+    "category": "Audio Devices",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-13-300x300.png",
+      "https://via.placeholder.com/500x500?text=JBL+2",
+      "https://via.placeholder.com/500x500?text=JBL+3",
+      "https://via.placeholder.com/500x500?text=JBL+4"
+    ],
+    "rating": 4.6,
+    "price": 149,
+    "description": "Portable waterproof Bluetooth speaker with powerful sound.",
+    "keyFeatures": ["Bluetooth 5.1","12-hour battery","Waterproof IP67","High-quality audio"]
+  },
+  {
+    "id": 18,
+    "name": "Apple AirPods Pro 2",
+    "category": "Audio Devices",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/image-39.jpg",
+      "https://via.placeholder.com/500x500?text=AirPods+2",
+      "https://via.placeholder.com/500x500?text=AirPods+3",
+      "https://via.placeholder.com/500x500?text=AirPods+4"
+    ],
+    "rating": 4.8,
+    "price": 249,
+    "description": "Apple AirPods Pro 2 with active noise cancellation and spatial audio.",
+    "keyFeatures": ["Active Noise Cancellation","Spatial Audio","Adaptive EQ","Wireless charging case"]
+  },
+  {
+    "id": 19,
+    "name": "Fitbit Charge 5",
+    "category": "Fitness",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-07-300x300.png",
+      "https://via.placeholder.com/500x500?text=Fitbit+2",
+      "https://via.placeholder.com/500x500?text=Fitbit+3",
+      "https://via.placeholder.com/500x500?text=Fitbit+4"
+    ],
+    "rating": 4.5,
+    "price": 149,
+    "description": "Fitness tracker with heart rate monitoring, GPS, and sleep tracking.",
+    "keyFeatures": ["Heart rate monitoring","Built-in GPS","Sleep tracking","Daily readiness score"]
+  },
+  {
+    "id": 20,
+    "name": "Dyson V15 Detect",
+    "category": "Home Appliances",
+    "images": [
+      "https://demo.bosathemes.com/electronix/wp-content/uploads/sites/59/2024/12/product-11-300x300.png",
+      "https://via.placeholder.com/500x500?text=Dyson+2",
+      "https://via.placeholder.com/500x500?text=Dyson+3",
+      "https://via.placeholder.com/500x500?text=Dyson+4"
+    ],
+    "rating": 4.9,
+    "price": 699,
+    "description": "Dyson V15 Detect cordless vacuum cleaner with laser dust detection.",
+    "keyFeatures": ["Laser dust detection","Cordless","High suction power","HEPA filtration"]
+  }
+]
