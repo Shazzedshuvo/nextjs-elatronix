@@ -14,9 +14,7 @@ const Catagory2 = () => {
     fetch(`${baseURL}/data/data.json`)
       .then((res) => res.json())
       .then((data) => {
-        const sorted = data
-          .sort((a, b) => b.rating - a.rating)
-          .slice(0, 8);
+        const sorted = data.sort((a, b) => b.rating - a.rating).slice(0, 8);
         setProducts(sorted);
       })
       .catch((err) => console.error("Fetch error:", err));
@@ -24,17 +22,15 @@ const Catagory2 = () => {
 
   return (
     <section className="max-w-7xl mx-auto px-4 py-12">
-      {/* Title */}
       <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
         Trending Products
       </h2>
 
       <div className="grid grid-cols-12 gap-8">
-        {/* Left: Banner Section */}
+        {/* Left: Banner */}
         <aside className="col-span-12 lg:col-span-3 flex flex-col gap-6 order-1 lg:order-1">
-          {/* 🟪 Big Banner */}
-          <div className="relative bg-gradient-to-r from-violet-100 to-violet-50 rounded-2xl overflow-hidden shadow-xl h-64 sm:h-72 md:h-130 w-full flex flex-col justify-center p-6">
-            <div className="relative z-10 pb-50">
+          <div className="relative bg-gradient-to-r from-violet-100 to-violet-50 rounded-2xl overflow-hidden shadow-xl h-[520px] sm:h-[560px] md:h-[520px] w-full flex flex-col justify-center p-6">
+            <div className="relative z-10">
               <span className="text-xs uppercase tracking-wide text-violet-600 font-semibold m-4">
                 Now Available
               </span>
@@ -44,17 +40,17 @@ const Catagory2 = () => {
               <p className="text-sm text-gray-600 mt-1">
                 Powerful performance with elegant design.
               </p>
-              <a
+              <Link
                 href="#"
                 className="inline-block mt-4 text-sm font-medium text-white bg-violet-600 px-4 py-2 rounded-lg hover:bg-violet-700 transition-all"
               >
                 Shop Now
-              </a>
+              </Link>
             </div>
             <img
               src="img-21.png"
               alt="Big Banner"
-              className="absolute right-0 bottom-5 h-48 sm:h-56 md:h-64 object-contain"
+              className="absolute right-0 bottom-0 h-48 sm:h-56 md:h-64 object-contain"
             />
           </div>
         </aside>
@@ -76,7 +72,7 @@ const Catagory2 = () => {
                       className="object-contain h-full"
                     />
 
-                    {/* Top-right: Wishlist & Delete */}
+                    {/* Wishlist & Delete */}
                     <div className="absolute top-2 right-2 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <button className="bg-white p-1 rounded-full shadow hover:bg-gray-100 transition">
                         <FiHeart className="text-red-500" size={18} />
@@ -91,19 +87,17 @@ const Catagory2 = () => {
                     {item.name}
                   </h3>
                   <p className="text-xs text-gray-500 mt-1">{item.category}</p>
-                  <div className="mt-1 text-indigo-600 font-bold text-sm">
-                    {item.price}৳
-                  </div>
+                  <div className="mt-1 text-indigo-600 font-bold text-sm">{item.price}৳</div>
                   <div className="mt-1 text-yellow-400 font-semibold text-xs">
                     <span className="text-black">Review:</span> {item.rating.toFixed(1)}
                   </div>
                 </motion.div>
               </Link>
 
-              {/* Bottom: Add to Cart Button */}
+              {/* Add to Cart */}
               <div className="absolute bottom-0 left-0 w-full px-3 pb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button className="w-full bg-black text-white flex items-center justify-center gap-2 py-2 rounded-lg hover:bg-gray-900 transition-all">
-                  <FiShoppingCart size={18} />
+                <button className="w-full bg-[#944CF5] text-white flex items-center justify-center gap-2 py-2 rounded-lg shadow-lg hover:bg-[#7B2FF7] hover:scale-105 transition-all duration-300">
+                  <FiShoppingCart className="text-[#FFD40C]" size={18} />
                   <span>Add to Cart</span>
                 </button>
               </div>

@@ -1,6 +1,9 @@
-import Link from 'next/link';
-import React from 'react';
-import { FaTruck, FaThumbsUp, FaUndo, FaLock, FaStar } from 'react-icons/fa';
+"use client";
+
+import Link from "next/link";
+import React from "react";
+import { FaTruck, FaThumbsUp, FaUndo, FaLock, FaStar } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const features = [
   { icon: <FaTruck />, title: "Free Delivery", desc: "From $50", color: "text-red-500", href: "/delivery" },
@@ -12,21 +15,29 @@ const features = [
 
 const Sarvis = () => {
   return (
-    <div className="bg-gray-100 py-6">
-      <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-6 px-4">
+    <section className="bg-gray-50 py-12 px-4">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
         {features.map((feature, index) => (
-          <Link key={index} href={feature.href} className="flex items-center space-x-3 p-4 rounded shadow hover:shadow-lg transition-all duration-200 cursor-pointer flex-1 min-w-[180px] bg-white">
-            <span className={`${feature.color} text-2xl hover:text-purple-600`}>
-              {feature.icon}
-            </span>
-            <div className="flex flex-col">
-              <span className="font-semibold text-gray-700 hover:text-purple-700">{feature.title}</span>
-              <span className="text-sm text-gray-500 hover:text-purple-500">{feature.desc}</span>
-            </div>
-          </Link>
+          <motion.div
+            key={index}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="cursor-pointer"
+          >
+            <Link
+              href={feature.href}
+              className="flex items-center p-5 rounded-2xl bg-white/80 backdrop-blur-md shadow-md hover:shadow-lg transition-all duration-300 gap-4"
+            >
+              <span className={`${feature.color} text-3xl`}>{feature.icon}</span>
+              <div className="flex flex-col">
+                <span className="font-semibold text-gray-800">{feature.title}</span>
+                <span className="text-sm text-gray-500">{feature.desc}</span>
+              </div>
+            </Link>
+          </motion.div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

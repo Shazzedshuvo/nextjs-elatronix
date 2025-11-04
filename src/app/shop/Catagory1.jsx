@@ -18,10 +18,9 @@ const Catagory1 = () => {
   }, []);
 
   return (
-    <section className="max-w-7xl mx-auto px-4 py-12">
-      {/* Title */}
-      <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
-         Latest Products
+    <section className="max-w-7xl mx-auto px-4 py-16">
+      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-800">
+        Latest Products
       </h2>
 
       <div className="grid grid-cols-12 gap-8">
@@ -31,11 +30,11 @@ const Catagory1 = () => {
             <div key={item.id} className="relative group">
               <Link href={`/shop/${item.id}`}>
                 <motion.div
-                  className="bg-white rounded-xl p-3 flex flex-col items-center shadow-md hover:shadow-lg cursor-pointer h-full transition-all duration-300"
+                  className="bg-white rounded-2xl p-3 flex flex-col items-center shadow-md hover:shadow-xl cursor-pointer h-full transition-all duration-300"
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                 >
-                  <div className="w-full h-32 sm:h-36 md:h-40 flex items-center justify-center mb-2 bg-gray-100 rounded relative overflow-hidden">
+                  <div className="w-full h-32 sm:h-36 md:h-40 flex items-center justify-center mb-2 bg-gray-100 rounded-lg relative overflow-hidden">
                     <img
                       src={item.images?.[0] || "/placeholder.png"}
                       alt={item.name}
@@ -65,7 +64,7 @@ const Catagory1 = () => {
 
               {/* Bottom: Add to Cart Button */}
               <div className="absolute bottom-0 left-0 w-full px-3 pb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button className="w-full bg-black text-white flex items-center justify-center gap-2 py-2 rounded-lg hover:bg-gray-900 transition-all">
+                <button className="w-full bg-indigo-600 text-white flex items-center justify-center gap-2 py-2 rounded-xl hover:bg-indigo-700 transition-all duration-300">
                   <FiShoppingCart size={18} />
                   <span>Add to Cart</span>
                 </button>
@@ -76,7 +75,7 @@ const Catagory1 = () => {
 
         {/* Right: Banner Section */}
         <aside className="col-span-12 lg:col-span-3 flex flex-col gap-6">
-          {/* 🟪 Big Banner */}
+          {/* Big Banner */}
           <div className="relative bg-gradient-to-r from-violet-100 to-violet-50 rounded-2xl overflow-hidden shadow-xl h-64 sm:h-72 md:h-80 w-full flex flex-col justify-center p-6">
             <div className="relative z-10">
               <span className="text-xs uppercase tracking-wide text-violet-600 font-semibold">
@@ -88,12 +87,12 @@ const Catagory1 = () => {
               <p className="text-sm text-gray-600 mt-1">
                 Powerful performance with elegant design.
               </p>
-              <a
+              <Link
                 href="#"
                 className="inline-block mt-4 text-sm font-medium text-white bg-violet-600 px-4 py-2 rounded-lg hover:bg-violet-700 transition-all"
               >
                 Shop Now
-              </a>
+              </Link>
             </div>
             <img
               src="/img-18.png"
@@ -102,21 +101,21 @@ const Catagory1 = () => {
             />
           </div>
 
-          {/* 🟨 Small Banner */}
-          <div className="relative bg-yellow-300 rounded-xl overflow-hidden shadow-lg flex items-center justify-between h-24 sm:h-28 md:h-32 p-4">
+          {/* Small Banner */}
+          <div className="relative bg-yellow-300 rounded-2xl overflow-hidden shadow-lg flex items-center justify-between h-28 sm:h-32 md:h-36 p-4">
             <div className="flex-1">
-              <h4 className="text-base font-bold text-gray-800">Game Console</h4>
-              <p className="text-xs mt-1 text-gray-700">
+              <h4 className="text-base sm:text-lg font-bold text-gray-800">Game Console</h4>
+              <p className="text-xs sm:text-sm mt-1 text-gray-700">
                 Buy 2 Get 1 — <span className="font-bold text-violet-600">35% OFF</span>
               </p>
-              <a
+              <Link
                 href="#"
-                className="inline-block mt-2 text-xs font-medium bg-violet-700 text-white px-3 py-1 rounded hover:bg-violet-800 transition-all"
+                className="inline-block mt-2 text-xs sm:text-sm font-medium bg-violet-700 text-white px-3 py-1 rounded hover:bg-violet-800 transition-all"
               >
                 Shop Now
-              </a>
+              </Link>
             </div>
-            <div className="w-16 sm:w-20 h-16 sm:h-20 rounded flex items-center justify-center overflow-hidden">
+            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded flex items-center justify-center overflow-hidden">
               <img
                 src="/image-5.png"
                 alt="Small Banner"
